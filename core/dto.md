@@ -82,6 +82,8 @@ final class BookInput {
 }
 ```
 
+> Note: When using Serialization Groups don't forget to add the proper adnotations to your Data Transformers.
+
 We can transform the `BookInput` to a `Book` resource instance:
 
 ```php
